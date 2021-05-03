@@ -8,4 +8,4 @@ app.use('/', (req,res)=>{
     `);
 });
 
-app.listen(port,()=>{console.log("server on")});
+app.listen(port,()=>{console.log(`${port}server on`)});
